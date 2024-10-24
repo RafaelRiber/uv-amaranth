@@ -1,0 +1,48 @@
+[project]
+name = "uv-amaranth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rafael Rier", email = "rafael.riber@epfl.ch" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "amaranth-boards",
+    "amaranth[builtin-yosys]~=0.5",
+    "python-dotenv>=1.0.1",
+    "yowasp-nextpnr-ecp5>=0.7.0.0.post519",
+    "yowasp-nextpnr-gowin>=0.7.0.0.post519",
+    "yowasp-nextpnr-ice40>=0.7.0.0.post519",
+    "yowasp-yosys>=0.46.0.0.post790",
+    "python-dotenv"
+]
+
+# [build-system]
+# requires = ["pdm-backend"]
+# build-backend = "pdm.backend"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+amaranth-boards = { git = "https://github.com/amaranth-lang/amaranth-boards" }
+
+# [tool.uv]
+# package = false
+
+# [tool.pdm.scripts]
+# _.env_file = ".env.toolchain"
+
+# [tool.hatch.envs.venv.env-vars]
+# AMARANTH_USE_YOSYS="builtin"
+# YOSYS="yowasp-yosys"
+# NEXTPNR_ICE40="yowasp-nextpnr-ice40"
+# ICEPACK="yowasp-icepack"
+# NEXTPNR_ECP5="yowasp-nextpnr-ecp5"
+# ECPPACK="yowasp-ecppack"
+# NEXTPNR_GOWIN="yowasp-nextpnr-gowin"
+
+[project.scripts]
+build_ice40 = "uv_amaranth:build_ice40"
