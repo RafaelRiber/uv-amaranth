@@ -1,5 +1,5 @@
 [project]
-name = "uv-amaranth"
+name = "uv-amaranth-template"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -45,4 +45,4 @@ amaranth-boards = { git = "https://github.com/amaranth-lang/amaranth-boards" }
 # NEXTPNR_GOWIN="yowasp-nextpnr-gowin"
 
 [project.scripts]
-build_icebreaker = "uv_amaranth:build_icebreaker"
+build_icebreaker = "uv_amaranth_template:build_icebreaker"
