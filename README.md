@@ -13,7 +13,7 @@ Current targets:
 For example:
 ```
 uv run build_icebreaker
-openFPGALoader -b ice40generic build/top.bin
+openFPGALoader -b ice40_generic build/top.bin
 ```
 ### TODO:
 - Implement tests
