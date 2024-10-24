@@ -45,4 +45,4 @@ amaranth-boards = { git = "https://github.com/amaranth-lang/amaranth-boards" }
 # NEXTPNR_GOWIN="yowasp-nextpnr-gowin"
 
 [project.scripts]
-build_ice40 = "uv_amaranth:build_ice40"
+build_icebreaker = "uv_amaranth:build_icebreaker"

@@ -7,6 +7,7 @@ from amaranth_boards.arty_a7 import ArtyA7_100Platform
 
 from .blinky import Blinky
 
+# Temporary fix until uv supports env files
 from dotenv import load_dotenv
 
 class Toplevel(Elaboratable):
@@ -19,7 +20,7 @@ class Toplevel(Elaboratable):
         return m
 
 
-def build_ice40():
+def build_icebreaker():
     load_dotenv()
     ICEBreakerPlatform().build(Toplevel())
 
