@@ -12,7 +12,7 @@ Current targets:
 
 For example:
 ```
-uv run icebreaker
+uv run build_icebreaker
 openFPGALoader -b ice40generic build/top.bin
 ```
 ### TODO:
