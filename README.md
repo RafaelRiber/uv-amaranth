@@ -1,6 +1,6 @@
 # Amaranth FPGA project template using [uv by Astral](https://github.com/astral-sh/uv)
 
-Template for Amaranth projects, based on the [Amaranth Project template](https://github.com/amaranth-lang/template-fpga)
+Template for Amaranth projects using the uv package and project manager, based on the [Amaranth Project template](https://github.com/amaranth-lang/template-fpga)
 
 ### Usage
 - [Install uv](https://github.com/astral-sh/uv?tab=readme-ov-file#installation)
