@@ -1,4 +1,4 @@
-Amaranth FPGA project template using [uv by Astral](https://github.com/astral-sh/uv)
+# Amaranth FPGA project template using [uv by Astral](https://github.com/astral-sh/uv)
 
 
 ### Usage
