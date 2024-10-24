@@ -21,5 +21,5 @@ uv run build_icebreaker
 openFPGALoader -b ice40_generic build/top.bin
 ```
 ### TODO:
-- [ ] Implement tests
+- [x] Implement tests
 - [ ] remove python-dotfiles dependency when uv has merged the integration of .env files (https://github.com/astral-sh/uv/issues/1384)
