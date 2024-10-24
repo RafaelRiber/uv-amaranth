@@ -15,3 +15,5 @@ For example:
 uv run icebreaker
 openFPGALoader -b ice40generic build/top.bin
 ```
+### TODO:
+- Implement tests
