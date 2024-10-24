@@ -12,6 +12,7 @@ dependencies = [
     "yowasp-nextpnr-gowin>=0.7.0.0.post519",
     "yowasp-nextpnr-ice40>=0.7.0.0.post519",
     "yowasp-yosys>=0.46.0.0.post790",
+    "pytest", 
     "python-dotenv"
 ]
 
@@ -28,4 +29,6 @@ pythonpath = [
 ]
 
 [project.scripts]
+# test = "pytest"
 build_icebreaker = "uv_amaranth_template:build_icebreaker"
+
