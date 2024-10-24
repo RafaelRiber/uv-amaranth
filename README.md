@@ -1,5 +1,7 @@
 # Amaranth FPGA project template using [uv by Astral](https://github.com/astral-sh/uv)
 
+[![CI](https://github.com/RafaelRiber/uv-amaranth-template/actions/workflows/ci.yml/badge.svg)](https://github.com/RafaelRiber/uv-amaranth-template/actions/workflows/ci.yml)
+
 Template for Amaranth projects using the uv package and project manager, based on the [Amaranth Project template](https://github.com/amaranth-lang/template-fpga)
 
 ### Usage
