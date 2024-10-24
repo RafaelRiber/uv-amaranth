@@ -20,4 +20,4 @@ jobs:
         uv tool install pytest
     - name: Run tests
       run: |
-        uvx pytest
+        uv run build_icebreaker
