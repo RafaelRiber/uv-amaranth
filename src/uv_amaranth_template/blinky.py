@@ -13,8 +13,8 @@ class Blinky(Component):
     def elaborate(self, platform):
         m = Module()
 
-        timer = Signal(range(int(self.frequency//2)))
-        with m.If(timer == int(self.frequency//2) - 1):
+        timer = Signal(range(int(self.frequency // 2)))
+        with m.If(timer == int(self.frequency // 2) - 1):
             m.d.sync += self.led.eq(~self.led)
             m.d.sync += timer.eq(0)
         with m.Else():

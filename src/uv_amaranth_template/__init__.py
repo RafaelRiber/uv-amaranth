@@ -10,6 +10,7 @@ from .blinky import Blinky
 # Temporary fix until uv supports env files
 from dotenv import load_dotenv
 
+
 class Toplevel(Elaboratable):
     def elaborate(self, platform):
         m = Module()
@@ -33,6 +34,7 @@ def build_ecp5():
 def build_gowin():
     load_dotenv()
     TangNanoPlatform().build(Toplevel())
+
 
 def build_arty100():
     load_dotenv()
